@@ -1,0 +1,1287 @@
+
+
+*******************************************************************************
+Mon Feb 17 18:47:33 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.6279212080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  31 7.3746168687e-29   0.00e+00  2.74e+04   -2.381484e-18   2.767392e-16   8.000000e-01
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 7.37462e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.08279e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.33801e-30
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -2.38148e-18     +/- 4.605e-20    (1.934%)
+b               = 2.76739e-16      +/- 3.266e-18    (1.18%)
+c               = 0.8              +/- 5.207e-16    (6.509e-14%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.096  1.000 
+c              -0.243 -0.397  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:49:03 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6279212080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  31 7.3746168687e-29   0.00e+00  2.74e+04   -2.381484e-18   2.767392e-16   8.000000e-01
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 7.37462e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.08279e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.33801e-30
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = -2.38148e-18     +/- 4.605e-20    (1.934%)
+b_qbic          = 2.76739e-16      +/- 3.266e-18    (1.18%)
+c_qbic          = 0.8              +/- 5.207e-16    (6.509e-14%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic          0.096  1.000 
+c_qbic         -0.243 -0.397  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:49:03 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277756020e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  11 3.6913513465e-27   0.00e+00  2.74e+04   -1.818967e-17   1.970155e-15   9.000000e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 3.69135e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.47356e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.17138e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -1.81897e-17     +/- 9.782e-19    (5.378%)
+b_aimd          = 1.97016e-15      +/- 8.922e-17    (4.529%)
+c_aimd          = 0.9              +/- 6.282e-15    (6.98e-13%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.351  1.000 
+c_aimd         -0.213 -0.697  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:49:03 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276300000e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  18 1.1678420100e-26   0.00e+00  2.74e+04   -3.212644e-17   3.517107e-15   1.000000e+00
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 1.16784e-26
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.621e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.86966e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -3.21264e-17     +/- 1.726e-18    (5.374%)
+b_cfnaim        = 3.51711e-15      +/- 1.987e-16    (5.65%)
+c_cfnaim        = 1                +/- 1.081e-14    (1.081e-12%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.484  1.000 
+c_cfnaim       -0.213 -0.608  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:49:03 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6273388080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.2560233863e-27   0.00e+00  2.74e+05   -1.677674e-17   1.858609e-15   1.200000e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 3.25602e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.38395e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.91531e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -1.67767e-17     +/- 6.186e-19    (3.687%)
+b_cfnqsf        = 1.85861e-15      +/- 5.982e-17    (3.219%)
+c_cfnqsf        = 1.2              +/- 4.376e-15    (3.647e-13%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf        0.327  1.000 
+c_cfnqsf       -0.535 -0.612  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:50:40 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6279212080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  31 7.3746168687e-29   0.00e+00  2.74e+04   -2.381484e-18   2.767392e-16   8.000000e-01
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 7.37462e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.08279e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.33801e-30
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = -2.38148e-18     +/- 4.605e-20    (1.934%)
+b_qbic          = 2.76739e-16      +/- 3.266e-18    (1.18%)
+c_qbic          = 0.8              +/- 5.207e-16    (6.509e-14%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic          0.096  1.000 
+c_qbic         -0.243 -0.397  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:50:40 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277756020e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  11 3.6913513465e-27   0.00e+00  2.74e+04   -1.818967e-17   1.970155e-15   9.000000e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 3.69135e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.47356e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.17138e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -1.81897e-17     +/- 9.782e-19    (5.378%)
+b_aimd          = 1.97016e-15      +/- 8.922e-17    (4.529%)
+c_aimd          = 0.9              +/- 6.282e-15    (6.98e-13%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.351  1.000 
+c_aimd         -0.213 -0.697  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:50:40 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276300000e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  18 1.1678420100e-26   0.00e+00  2.74e+04   -3.212644e-17   3.517107e-15   1.000000e+00
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 1.16784e-26
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.621e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.86966e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -3.21264e-17     +/- 1.726e-18    (5.374%)
+b_cfnaim        = 3.51711e-15      +/- 1.987e-16    (5.65%)
+c_cfnaim        = 1                +/- 1.081e-14    (1.081e-12%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.484  1.000 
+c_cfnaim       -0.213 -0.608  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:50:40 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6273388080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.2560233863e-27   0.00e+00  2.74e+05   -1.677674e-17   1.858609e-15   1.200000e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 3.25602e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.38395e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.91531e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -1.67767e-17     +/- 6.186e-19    (3.687%)
+b_cfnqsf        = 1.85861e-15      +/- 5.982e-17    (3.219%)
+c_cfnqsf        = 1.2              +/- 4.376e-15    (3.647e-13%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf        0.327  1.000 
+c_cfnqsf       -0.535 -0.612  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:51:30 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6279212080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  31 7.3746168687e-29   0.00e+00  2.74e+04   -2.381484e-18   2.767392e-16   8.000000e-01
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 7.37462e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.08279e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.33801e-30
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = -2.38148e-18     +/- 4.605e-20    (1.934%)
+b_qbic          = 2.76739e-16      +/- 3.266e-18    (1.18%)
+c_qbic          = 0.8              +/- 5.207e-16    (6.509e-14%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic          0.096  1.000 
+c_qbic         -0.243 -0.397  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:51:30 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277756020e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  11 3.6913513465e-27   0.00e+00  2.74e+04   -1.818967e-17   1.970155e-15   9.000000e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 3.69135e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.47356e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.17138e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -1.81897e-17     +/- 9.782e-19    (5.378%)
+b_aimd          = 1.97016e-15      +/- 8.922e-17    (4.529%)
+c_aimd          = 0.9              +/- 6.282e-15    (6.98e-13%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.351  1.000 
+c_aimd         -0.213 -0.697  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:51:30 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276300000e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  18 1.1678420100e-26   0.00e+00  2.74e+04   -3.212644e-17   3.517107e-15   1.000000e+00
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 1.16784e-26
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.621e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.86966e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -3.21264e-17     +/- 1.726e-18    (5.374%)
+b_cfnaim        = 3.51711e-15      +/- 1.987e-16    (5.65%)
+c_cfnaim        = 1                +/- 1.081e-14    (1.081e-12%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.484  1.000 
+c_cfnaim       -0.213 -0.608  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:51:30 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6273388080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.2560233863e-27   0.00e+00  2.74e+05   -1.677674e-17   1.858609e-15   1.200000e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 3.25602e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.38395e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.91531e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -1.67767e-17     +/- 6.186e-19    (3.687%)
+b_cfnqsf        = 1.85861e-15      +/- 5.982e-17    (3.219%)
+c_cfnqsf        = 1.2              +/- 4.376e-15    (3.647e-13%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf        0.327  1.000 
+c_cfnqsf       -0.535 -0.612  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:52:19 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6279212080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  31 7.3746168687e-29   0.00e+00  2.74e+04   -2.381484e-18   2.767392e-16   8.000000e-01
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 7.37462e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.08279e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.33801e-30
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = -2.38148e-18     +/- 4.605e-20    (1.934%)
+b_qbic          = 2.76739e-16      +/- 3.266e-18    (1.18%)
+c_qbic          = 0.8              +/- 5.207e-16    (6.509e-14%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic          0.096  1.000 
+c_qbic         -0.243 -0.397  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:52:19 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6278136450e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   6 8.4656940647e-01  -5.25e-01  2.74e-03    7.530210e-05  -6.666123e-03   9.123252e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.846569
+rel. change during last iteration : -5.25253e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.223155
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0497982
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = 7.53021e-05      +/- 6.737e-05    (89.46%)
+b_aimd          = -0.00666612      +/- 0.007282     (109.2%)
+c_aimd          = 0.912325         +/- 0.166        (18.2%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.971  1.000 
+c_aimd          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:52:19 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276300000e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  18 1.1678420100e-26   0.00e+00  2.74e+04   -3.212644e-17   3.517107e-15   1.000000e+00
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 1.16784e-26
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.621e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.86966e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -3.21264e-17     +/- 1.726e-18    (5.374%)
+b_cfnaim        = 3.51711e-15      +/- 1.987e-16    (5.65%)
+c_cfnaim        = 1                +/- 1.081e-14    (1.081e-12%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.484  1.000 
+c_cfnaim       -0.213 -0.608  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:52:19 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6273388080e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.2560233863e-27   0.00e+00  2.74e+05   -1.677674e-17   1.858609e-15   1.200000e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 3.25602e-27
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.38395e-14
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.91531e-28
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -1.67767e-17     +/- 6.186e-19    (3.687%)
+b_cfnqsf        = 1.85861e-15      +/- 5.982e-17    (3.219%)
+c_cfnqsf        = 1.2              +/- 4.376e-15    (3.647e-13%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf        0.327  1.000 
+c_cfnqsf       -0.535 -0.612  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:22 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6278913784e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 8.0723343176e-02  -1.34e-05  2.74e-04    5.887446e-06   5.520164e-05   7.792807e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0807233
+rel. change during last iteration : -1.33788e-10
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0689089
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00474843
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = 5.88745e-06      +/- 2.08e-05     (353.3%)
+b_qbic          = 5.52016e-05      +/- 0.002249     (4074%)
+c_qbic          = 0.779281         +/- 0.05127      (6.579%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic         -0.971  1.000 
+c_qbic          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:22 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277321645e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 6.1035246765e-02  -6.35e-06  2.74e-04   -9.804056e-06   1.812734e-03   8.523535e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0610352
+rel. change during last iteration : -6.34792e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0599192
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00359031
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -9.80406e-06     +/- 1.809e-05    (184.5%)
+b_aimd          = 0.00181273       +/- 0.001955     (107.9%)
+c_aimd          = 0.852354         +/- 0.04458      (5.23%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.971  1.000 
+c_aimd          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:22 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276365332e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.0356226398e-01  -2.75e-07  2.74e-04   -1.326042e-06   1.687081e-04   9.909000e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.103562
+rel. change during last iteration : -2.75339e-12
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0780506
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0060919
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -1.32604e-06     +/- 2.356e-05    (1777%)
+b_cfnaim        = 0.000168708      +/- 0.002547     (1510%)
+c_cfnaim        = 0.9909           +/- 0.05807      (5.86%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.971  1.000 
+c_cfnaim        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:22 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6275134431e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 5.2744214126e-02  -7.39e-06  2.74e-04   -2.051037e-05   1.800205e-03   1.070770e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0527442
+rel. change during last iteration : -7.39302e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.055701
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0031026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -2.05104e-05     +/- 1.682e-05    (81.99%)
+b_cfnqsf        = 0.00180021       +/- 0.001818     (101%)
+c_cfnqsf        = 1.07077          +/- 0.04144      (3.87%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf       -0.971  1.000 
+c_cfnqsf        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:33 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6278913784e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 8.0723343176e-02  -1.34e-05  2.74e-04    5.887446e-06   5.520164e-05   7.792807e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0807233
+rel. change during last iteration : -1.33788e-10
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0689089
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00474843
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = 5.88745e-06      +/- 2.08e-05     (353.3%)
+b_qbic          = 5.52016e-05      +/- 0.002249     (4074%)
+c_qbic          = 0.779281         +/- 0.05127      (6.579%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic         -0.971  1.000 
+c_qbic          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:33 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277321645e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 6.1035246765e-02  -6.35e-06  2.74e-04   -9.804056e-06   1.812734e-03   8.523535e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0610352
+rel. change during last iteration : -6.34792e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0599192
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00359031
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -9.80406e-06     +/- 1.809e-05    (184.5%)
+b_aimd          = 0.00181273       +/- 0.001955     (107.9%)
+c_aimd          = 0.852354         +/- 0.04458      (5.23%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.971  1.000 
+c_aimd          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:33 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276365332e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.0356226398e-01  -2.75e-07  2.74e-04   -1.326042e-06   1.687081e-04   9.909000e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.103562
+rel. change during last iteration : -2.75339e-12
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0780506
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0060919
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -1.32604e-06     +/- 2.356e-05    (1777%)
+b_cfnaim        = 0.000168708      +/- 0.002547     (1510%)
+c_cfnaim        = 0.9909           +/- 0.05807      (5.86%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.971  1.000 
+c_cfnaim        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:33 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6275134431e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 5.2744214126e-02  -7.39e-06  2.74e-04   -2.051037e-05   1.800205e-03   1.070770e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0527442
+rel. change during last iteration : -7.39302e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.055701
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0031026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -2.05104e-05     +/- 1.682e-05    (81.99%)
+b_cfnqsf        = 0.00180021       +/- 0.001818     (101%)
+c_cfnqsf        = 1.07077          +/- 0.04144      (3.87%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf       -0.971  1.000 
+c_cfnqsf        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:55 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6285016631e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 6.0232301763e-01  -1.72e-05  2.74e-04    2.025974e-05  -1.617799e-03   3.982526e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.602323
+rel. change during last iteration : -1.71508e-10
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.188231
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0354308
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = 2.02597e-05      +/- 5.682e-05    (280.5%)
+b_qbic          = -0.0016178       +/- 0.006143     (379.7%)
+c_qbic          = 0.398253         +/- 0.14         (35.16%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic         -0.971  1.000 
+c_qbic          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:55 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6277957346e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 8.5678088050e-02  -9.87e-07  2.74e-04   -3.146503e-06  -5.803828e-05   9.103851e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0856781
+rel. change during last iteration : -9.86612e-12
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0709922
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00503989
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = -3.1465e-06      +/- 2.143e-05    (681.1%)
+b_aimd          = -5.80383e-05     +/- 0.002317     (3992%)
+c_aimd          = 0.910385         +/- 0.05282      (5.802%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.971  1.000 
+c_aimd          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:55 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6276410918e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 6.8425121577e-02  -1.96e-06  2.74e-04   -6.461609e-06   9.831852e-05   1.025419e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0684251
+rel. change during last iteration : -1.95708e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0634429
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00402501
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -6.46161e-06     +/- 1.915e-05    (296.4%)
+b_cfnaim        = 9.83185e-05      +/- 0.00207      (2106%)
+c_cfnaim        = 1.02542          +/- 0.0472       (4.603%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.971  1.000 
+c_cfnaim        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:58:55 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6275029291e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 7.0371291319e-02  -4.18e-06  2.74e-04   -1.559809e-05   1.680205e-03   1.056347e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0703713
+rel. change during last iteration : -4.17671e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0643389
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00413949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = -1.55981e-05     +/- 1.942e-05    (124.5%)
+b_cfnqsf        = 0.00168021       +/- 0.0021       (125%)
+c_cfnqsf        = 1.05635          +/- 0.04787      (4.531%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf       -0.971  1.000 
+c_cfnqsf        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:59:21 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($2/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_qbic(x)
+	f_qbic(x) = a_qbic*x**2 + b_qbic*x + c_qbic
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_qbic        b_qbic        c_qbic       
+   0 4.6284887763e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.3199577993e+00  -2.60e-06  2.74e-04    4.976304e-05  -7.022864e-03   6.364254e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.31996
+rel. change during last iteration : -2.60182e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.278648
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0776446
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_qbic          = 4.9763e-05       +/- 8.412e-05    (169%)
+b_qbic          = -0.00702286      +/- 0.009093     (129.5%)
+c_qbic          = 0.636425         +/- 0.2073       (32.57%)
+
+correlation matrix of the fit parameters:
+                a_qbic b_qbic c_qbic 
+a_qbic          1.000 
+b_qbic         -0.971  1.000 
+c_qbic          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:59:21 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($3/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_aimd(x)
+	f_aimd(x) = a_aimd*x**2 + b_aimd*x + c_aimd
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_aimd        b_aimd        c_aimd       
+   0 4.6283143075e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.1413679054e+00  -3.18e-06  2.74e-04    1.691274e-05  -2.653882e-03   6.274044e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.14137
+rel. change during last iteration : -3.18174e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.259113
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0671393
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_aimd          = 1.69127e-05      +/- 7.822e-05    (462.5%)
+b_aimd          = -0.00265388      +/- 0.008456     (318.6%)
+c_aimd          = 0.627404         +/- 0.1928       (30.73%)
+
+correlation matrix of the fit parameters:
+                a_aimd b_aimd c_aimd 
+a_aimd          1.000 
+b_aimd         -0.971  1.000 
+c_aimd          0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:59:21 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($4/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnaim(x)
+	f_cfnaim(x) = a_cfnaim*x**2 + b_cfnaim*x + c_cfnaim
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnaim      b_cfnaim      c_cfnaim     
+   0 4.6282442445e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 9.0311654012e-01  -8.35e-06  2.74e-04   -2.772386e-05   3.544689e-03   4.803632e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.903117
+rel. change during last iteration : -8.3523e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.230488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0531245
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnaim        = -2.77239e-05     +/- 6.958e-05    (251%)
+b_cfnaim        = 0.00354469       +/- 0.007522     (212.2%)
+c_cfnaim        = 0.480363         +/- 0.1715       (35.7%)
+
+correlation matrix of the fit parameters:
+                a_cfna b_cfna c_cfna 
+a_cfnaim        1.000 
+b_cfnaim       -0.971  1.000 
+c_cfnaim        0.781 -0.889  1.000 
+
+
+*******************************************************************************
+Mon Feb 17 18:59:21 2025
+
+
+FIT:    data read from "iteration_runtime.csv" using ($0*100.0/N):($5/1000)
+        format = x:z
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_cfnqsf(x)
+	f_cfnqsf(x) = a_cfnqsf*x**2 + b_cfnqsf*x + c_cfnqsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_cfnqsf      b_cfnqsf      c_cfnqsf     
+   0 4.6281798649e+08   0.00e+00  2.74e+03    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.4318940526e+00  -1.39e-06  2.74e-04    4.680109e-05  -5.030957e-03   7.143763e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.43189
+rel. change during last iteration : -1.38573e-11
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.290222
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0842291
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_cfnqsf        = 4.68011e-05      +/- 8.761e-05    (187.2%)
+b_cfnqsf        = -0.00503096      +/- 0.009471     (188.3%)
+c_cfnqsf        = 0.714376         +/- 0.2159       (30.22%)
+
+correlation matrix of the fit parameters:
+                a_cfnq b_cfnq c_cfnq 
+a_cfnqsf        1.000 
+b_cfnqsf       -0.971  1.000 
+c_cfnqsf        0.781 -0.889  1.000 
