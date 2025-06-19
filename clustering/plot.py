@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 import os
 import glob
@@ -9,6 +10,7 @@ import matplotlib.pyplot as plt
 # 全局 Matplotlib 配置
 # -----------------------------
 plt.rcParams['font.family'] = 'Times New Roman'
+plt.rcParams['hatch.linewidth'] = 3.0  # 加粗条纹
 
 # -----------------------------
 # 查找当前目录下所有 .csv 文件
@@ -26,85 +28,81 @@ for csv_path in csv_files:
     df = pd.read_csv(csv_path, index_col=0)
     print(f"正在处理：{csv_path}，索引 = {df.index.tolist()}")
 
-    # 2) 转数值并把毫秒 → 秒
+    # 2) 将无法解析为数字的单元格 → NaN，再将原始值（毫秒）转换为秒
     df = df.apply(lambda col: pd.to_numeric(col, errors='coerce'))
     df = df.dropna(axis=1, how='all')
-    df = df / 1000.0
+    df = df / 1000.0  # 毫秒 → 秒
 
-    # 3) 重排列顺序
-    new_order = ["RAIN", "TCP", "RAIN-NS"]
+    # 3) 重新排列列顺序：RAIN 在左，CLMAT 在右
+    new_order = ["RAIN", "CLMAT"]
     available_cols = [c for c in new_order if c in df.columns]
     df = df[available_cols]
 
-    # 4) 准备画布 & Axes
+    # 4) 准备画布
     fig, ax = plt.subplots(figsize=(10, 6))
     n = len(df.index)
-    bar_width = 0.20
+    bar_width = 0.30
     x = np.arange(n)
 
-    # 5) 颜色与纹理（改为更亮的配色，纹理密度稍微加大）
+    # 5) 配置配色与纹理 - 空心柱状图风格
+    #    - RAIN  使用暗一点的橘红色
+    #    - CLMAT 使用灰蓝色
     colors = {
-        "RAIN":    "#FFC0C0",  # 更亮的浅粉红
-        "TCP":     "#999999",  # 浅灰
-        "RAIN-NS": "#D0E7F9",  # 更亮的浅蓝
+        "RAIN":  "#CC4125",  # 暗一点的橘红色
+        "CLMAT": "#6495ED",  # 灰蓝色
     }
     hatches = {
-        "RAIN":    "//",   # 双斜线，密度更大
-        "TCP":     "\\\\", # 双反斜线，密度更大
-        "RAIN-NS": "--",   # 双横线，密度更大
+        "RAIN":  "xxx",      # 交叉斜纹
+        "CLMAT": "\\\\\\",   # 左斜纹
     }
 
-    # 6) 画柱状
+    # 6) 绘制每个系列 - 空心柱状图
     for i, col in enumerate(available_cols):
-        label_text = "RAIN-NS" if col == "RAIN-NS" else col
         ax.bar(
             x + i * bar_width,
             df[col],
             bar_width,
-            label=label_text,
-            color=colors[col],
-            edgecolor='black',
-            hatch=hatches[col]
+            label=col,
+            color='none',                           # 背景透明
+            edgecolor=colors.get(col, "#777777"),   # 边框和纹理颜色
+            hatch=hatches.get(col, ""),             # 纹理样式
+            linewidth=2.0                           # 边框线宽
         )
 
-    # 7) X 轴刻度
-    offset = (len(available_cols) - 1) * bar_width / 2
-    ax.set_xticks(x + offset)
-    ax.set_xticklabels(df.index.astype(int).tolist(), fontsize=20)
+    # 7) 强制 X 轴刻度对应索引值，并将其居中
+    center_offset = (len(available_cols) - 1) * bar_width / 2
+    ax.set_xticks(x + center_offset)
+    ax.set_xticklabels(df.index.astype(int).tolist(), fontsize=24)  # 刻度数字设为 24 号
 
-    # 8) 轴标签
-    ax.set_xlabel("#stragglers(%)", fontsize=38, labelpad=12)
-    ax.set_ylabel("Total agg time (s)", fontsize=36, labelpad=12)
+    # 8) 设置 X/Y 轴标题
+    ax.set_xlabel("#producers", fontsize=36, labelpad=12)
+    ax.set_ylabel("Total agg time (s)", fontsize=38, labelpad=12)
 
-    # 9) 刻度数字
-    ax.tick_params(axis='x', labelsize=36)
+    # 9) 增大刻度数字字体
+    ax.tick_params(axis='x', labelsize=38)
     ax.tick_params(axis='y', labelsize=36)
 
-    # 10) 网格 & 栅格置于柱子下方
+    # 10) 打开网格，并将网格线放在柱子后方
     ax.yaxis.grid(True, linestyle='--', linewidth=0.6, color='gray', alpha=0.7)
     ax.set_axisbelow(True)
 
-    # 11) 先 tight_layout 收紧主图
-    fig.tight_layout()
-    fig.subplots_adjust(top=0.98)
-
-    # 12) 用 ax.legend 把 legend 摆到 Axes 顶部外面
-    num_items = len(available_cols)
+    # 11) 图例放在图内部左上方，稍微往右移动一点
     leg = ax.legend(
-        loc='lower center',
-        bbox_to_anchor=(0.5, 0.95),
-        ncol=num_items,
-        frameon=False,
-        fontsize=32,
-        labelspacing=0.2,
-        columnspacing=0.8,
-        handletextpad=0.2
+        loc='upper left',
+        bbox_to_anchor=(0.02, 0.98),
+        ncol=1,
+        frameon=True,
+        edgecolor='black',
+        fontsize=25,  # 图例文字仍为 20 号
     )
+    leg.get_frame().set_facecolor('white')
+    leg.get_frame().set_alpha(1)
 
-    # 13) 保存时加上 bbox_inches='tight'
+    # 12) 收紧布局并保存为 PDF
+    plt.tight_layout()
     base_name = os.path.splitext(os.path.basename(csv_path))[0]
     output_pdf = f"{base_name}.pdf"
-    fig.savefig(output_pdf, dpi=300, bbox_inches='tight')
-
+    plt.savefig(output_pdf, dpi=300)
     print(f"已保存：{output_pdf}")
+
     plt.close(fig)
